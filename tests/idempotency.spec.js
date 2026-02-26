@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test.use({
-  baseURL: 'http://localhost:3001'
+  baseURL: 'https://idempotency-backend-1.onrender.com/'
 });
 //
 // Utility: Generate Unique Idempotency Key
