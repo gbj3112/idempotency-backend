@@ -1,5 +1,5 @@
 const crypto = require("crypto");
-const Idempotency = require("../models/idempotency");
+const Idempotency = require("../models/Idempotency");
 
 const generateHash = (body) => {
   return crypto
